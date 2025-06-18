@@ -1,0 +1,1 @@
+A dependency injection interface for pluggable serialization providers. Define serialization contracts once and swap implementations without changing application code.
