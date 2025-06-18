@@ -1,6 +1,6 @@
 MIT License
 
-https://github.com/ktsu-dev/Extensions
+https://github.com/ktsu-dev/SerializationProvider
 
 Copyright (c) 2023-2025 ktsu-dev
 
