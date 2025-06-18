@@ -81,7 +81,7 @@ public class JsonSerializationProvider : ISerializationProvider
 ### 2. Register the Serialization Provider
 
 ```csharp
-using SerializationProvider.Extensions;
+using ktsu.SerializationProvider.Extensions;
 
 // In your Startup.cs or Program.cs
 services.AddSerializationProvider<JsonSerializationProvider>();

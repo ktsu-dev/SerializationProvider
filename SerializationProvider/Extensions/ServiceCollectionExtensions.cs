@@ -2,7 +2,7 @@
 // All rights reserved.
 // Licensed under the MIT license.
 
-namespace SerializationProvider.Extensions;
+namespace ktsu.SerializationProvider.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 
 /// <summary>

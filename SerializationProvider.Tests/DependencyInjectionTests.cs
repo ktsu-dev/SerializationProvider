@@ -2,11 +2,11 @@
 // All rights reserved.
 // Licensed under the MIT license.
 
-namespace SerializationProvider.Tests;
+namespace ktsu.SerializationProvider.Tests;
 using FluentAssertions;
+using ktsu.SerializationProvider.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SerializationProvider.Extensions;
 
 [TestClass]
 public class DependencyInjectionTests

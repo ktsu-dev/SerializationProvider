@@ -2,7 +2,7 @@
 // All rights reserved.
 // Licensed under the MIT license.
 
-namespace SerializationProvider;
+namespace ktsu.SerializationProvider;
 
 /// <summary>
 /// Defines a contract for serialization providers that can serialize and deserialize objects.
