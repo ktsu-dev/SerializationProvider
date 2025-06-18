@@ -3,7 +3,6 @@
   <ItemGroup>
     <PackageReference Include="FluentAssertions" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
-    <PackageReference Include="Moq" />
     <PackageReference Include="System.Text.Json" />
   </ItemGroup>
 
