@@ -1,3 +1,11 @@
+# ⚠️ DEPRECATED
+
+**This project is no longer maintained.** Its functionality has been moved to [ktsu.Abstractions](https://github.com/ktsu-dev/Abstractions).
+
+Please migrate to the new library for continued support and updates.
+
+---
+
 # ktsu.SerializationProvider
 
 A dependency injection interface for pluggable serialization providers. Define serialization contracts once and swap implementations without changing application code.
