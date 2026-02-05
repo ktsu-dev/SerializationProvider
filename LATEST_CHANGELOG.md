@@ -1,5 +1,3 @@
-## v1.0.5 (patch)
+## v1.0.5
 
-Changes since v1.0.4:
-
-- Add optional NuGet API key parameter to pipeline configuration ([@matt-edmondson](https://github.com/matt-edmondson))
+No significant changes detected since v1.0.5.
