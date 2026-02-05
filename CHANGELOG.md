@@ -1,3 +1,8 @@
+## v1.0.4 (patch)
+
+Changes since v1.0.3:
+
+- Compatibility supressions ([@matt-edmondson](https://github.com/matt-edmondson))
 ## v1.0.3 (patch)
 
 Changes since v1.0.2:
@@ -9,10 +14,7 @@ Changes since v1.0.2:
 Changes since v1.0.3-pre.1:
 ## v1.0.3-pre.1 (prerelease)
 
-Changes since v1.0.2:
-
-- Bump the microsoft group with 2 updates ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- Bump the system group with 1 update ([@dependabot[bot]](https://github.com/dependabot[bot]))
+Incremental prerelease update.
 ## v1.0.2 (patch)
 
 Changes since v1.0.1:

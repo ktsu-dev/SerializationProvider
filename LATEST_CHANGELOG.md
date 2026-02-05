@@ -1,6 +1,5 @@
-## v1.0.3 (patch)
+## v1.0.4 (patch)
 
-Changes since v1.0.2:
+Changes since v1.0.3:
 
-- Remove .github\workflows\project.yml ([@matt-edmondson](https://github.com/matt-edmondson))
-- migrate to dotnet 10 ([@matt-edmondson](https://github.com/matt-edmondson))
+- Compatibility supressions ([@matt-edmondson](https://github.com/matt-edmondson))
