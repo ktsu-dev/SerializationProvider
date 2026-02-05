@@ -1,6 +1,5 @@
-## v1.0.3 (patch)
+## v1.0.5 (patch)
 
-Changes since v1.0.2:
+Changes since v1.0.4:
 
-- Remove .github\workflows\project.yml ([@matt-edmondson](https://github.com/matt-edmondson))
-- migrate to dotnet 10 ([@matt-edmondson](https://github.com/matt-edmondson))
+- Add optional NuGet API key parameter to pipeline configuration ([@matt-edmondson](https://github.com/matt-edmondson))
