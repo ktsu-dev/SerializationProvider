@@ -1,5 +1,5 @@
-## v1.0.6-pre.12 (prerelease)
+## v1.0.6-pre.13 (prerelease)
 
-Changes since v1.0.6-pre.11:
+Changes since v1.0.6-pre.12:
 
-- Bump the microsoft group with 2 updates ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump Polyfill from 9.18.0 to 9.22.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
