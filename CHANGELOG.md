@@ -1,8 +1,8 @@
-## v1.0.6-pre.16 (prerelease)
+## v1.0.6-pre.17 (prerelease)
 
-Changes since v1.0.6-pre.15:
+Changes since v1.0.6-pre.16:
 
-- Bump Polyfill from 9.23.0 to 9.24.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump Polyfill from 9.24.0 to 10.0.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
 ## v1.0.6-pre.16 (prerelease)
 
 Changes since v1.0.6-pre.15:
