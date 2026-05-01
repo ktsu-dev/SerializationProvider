@@ -1,8 +1,8 @@
-## v1.0.6-pre.22 (prerelease)
+## v1.0.6-pre.23 (prerelease)
 
-Changes since v1.0.6-pre.21:
+Changes since v1.0.6-pre.22:
 
-- Bump the microsoft group with 2 updates ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump MSTest.Sdk from 4.2.1 to 4.2.2 ([@dependabot[bot]](https://github.com/dependabot[bot]))
 ## v1.0.6-pre.22 (prerelease)
 
 Changes since v1.0.6-pre.21:
