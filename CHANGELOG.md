@@ -1,8 +1,8 @@
-## v1.0.6-pre.28 (prerelease)
+## v1.0.6-pre.29 (prerelease)
 
-Changes since v1.0.6-pre.27:
+Changes since v1.0.6-pre.28:
 
-- Bump MSTest.Sdk from 4.2.2 to 4.2.3 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump Polyfill from 10.5.1 to 10.6.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
 ## v1.0.6-pre.28 (prerelease)
 
 Changes since v1.0.6-pre.27:
