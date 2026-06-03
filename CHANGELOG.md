@@ -1,8 +1,8 @@
-## v1.0.6-pre.31 (prerelease)
+## v1.0.6-pre.32 (prerelease)
 
-Changes since v1.0.6-pre.30:
+Changes since v1.0.6-pre.31:
 
-- Bump Polyfill from 10.7.0 to 10.7.1 ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Bump Polyfill from 10.7.1 to 10.8.0 ([@dependabot[bot]](https://github.com/dependabot[bot]))
 ## v1.0.6-pre.31 (prerelease)
 
 Changes since v1.0.6-pre.30:
