@@ -1,3 +1,6 @@
+## v1.0.6
+
+No significant changes detected since v1.0.6.
 ## v1.0.6 (patch)
 
 Changes since v1.0.5:
@@ -169,9 +172,7 @@ Changes since v1.0.6-pre.1:
 - Bump the microsoft group with 2 updates ([@dependabot[bot]](https://github.com/dependabot[bot]))
 ## v1.0.6-pre.1 (prerelease)
 
-Changes since v1.0.5:
-
-- Sync scripts\update-winget-manifests.ps1 ([@ktsu[bot]](https://github.com/ktsu[bot]))
+Incremental prerelease update.
 ## v1.0.5 (patch)
 
 Changes since v1.0.4:
