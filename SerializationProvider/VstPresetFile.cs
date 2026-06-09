@@ -41,8 +41,8 @@ public static class VstPresetFile
 	/// <exception cref="ArgumentException">Thrown when <paramref name="stream"/> is not seekable or writable.</exception>
 	public static void Write(Stream stream, VstPreset preset)
 	{
-		_ = stream ?? throw new ArgumentNullException(nameof(stream));
-		_ = preset ?? throw new ArgumentNullException(nameof(preset));
+		Ensure.NotNull(stream);
+		Ensure.NotNull(preset);
 		if (!stream.CanSeek || !stream.CanWrite)
 		{
 			throw new ArgumentException("Stream must be seekable and writable.", nameof(stream));
@@ -110,7 +110,7 @@ public static class VstPresetFile
 	/// <exception cref="InvalidDataException">Thrown when the stream is not a valid VST3 preset.</exception>
 	public static VstPreset Read(Stream stream)
 	{
-		_ = stream ?? throw new ArgumentNullException(nameof(stream));
+		Ensure.NotNull(stream);
 		if (!stream.CanSeek || !stream.CanRead)
 		{
 			throw new ArgumentException("Stream must be seekable and readable.", nameof(stream));
@@ -187,7 +187,7 @@ public static class VstPresetFile
 	/// <exception cref="ArgumentNullException">Thrown when <paramref name="bytes"/> is null.</exception>
 	public static VstPreset FromBytes(byte[] bytes)
 	{
-		_ = bytes ?? throw new ArgumentNullException(nameof(bytes));
+		Ensure.NotNull(bytes);
 		using MemoryStream stream = new(bytes, writable: false);
 		return Read(stream);
 	}

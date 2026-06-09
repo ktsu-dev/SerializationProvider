@@ -21,8 +21,8 @@ using System.Text;
 /// <param name="presetClassId">The VST3 plugin class id (32-character ASCII FUID) to tag presets with.</param>
 public sealed class VstPresetSerializationProvider(ISerializationProvider innerProvider, string presetClassId) : ISerializationProvider
 {
-	private readonly ISerializationProvider inner = innerProvider ?? throw new ArgumentNullException(nameof(innerProvider));
-	private readonly string classId = presetClassId ?? throw new ArgumentNullException(nameof(presetClassId));
+	private readonly ISerializationProvider inner = Ensure.NotNull(innerProvider);
+	private readonly string classId = Ensure.NotNull(presetClassId);
 
 	/// <inheritdoc/>
 	public string ProviderName => "VST3 Preset";

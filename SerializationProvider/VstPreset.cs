@@ -54,8 +54,8 @@ public sealed record VstPreset
 	/// <exception cref="ArgumentNullException">Thrown when <paramref name="classId"/> or <paramref name="componentState"/> is null.</exception>
 	public VstPreset(string classId, byte[] componentState, byte[]? controllerState = null, string? metaInfo = null, int version = VstPresetFile.FormatVersion)
 	{
-		ClassId = classId ?? throw new ArgumentNullException(nameof(classId));
-		ComponentState = componentState ?? throw new ArgumentNullException(nameof(componentState));
+		ClassId = Ensure.NotNull(classId);
+		ComponentState = Ensure.NotNull(componentState);
 		ControllerState = controllerState;
 		MetaInfo = metaInfo;
 		Version = version;
