@@ -17,22 +17,12 @@ using System.Text;
 /// Base64-encoded. For direct file interop — writing bytes a host can load, or reading a host-written
 /// <c>.vstpreset</c> — use <see cref="VstPresetFile"/> directly.
 /// </remarks>
-public sealed class VstPresetSerializationProvider : ISerializationProvider
+/// <param name="innerProvider">The provider that serializes the logical state stored inside the preset.</param>
+/// <param name="presetClassId">The VST3 plugin class id (32-character ASCII FUID) to tag presets with.</param>
+public sealed class VstPresetSerializationProvider(ISerializationProvider innerProvider, string presetClassId) : ISerializationProvider
 {
-	private readonly ISerializationProvider inner;
-	private readonly string classId;
-
-	/// <summary>
-	/// Initializes a new instance of the <see cref="VstPresetSerializationProvider"/> class.
-	/// </summary>
-	/// <param name="innerProvider">The provider that serializes the logical state stored inside the preset.</param>
-	/// <param name="presetClassId">The VST3 plugin class id (32-character ASCII FUID) to tag presets with.</param>
-	/// <exception cref="ArgumentNullException">Thrown when <paramref name="innerProvider"/> or <paramref name="presetClassId"/> is null.</exception>
-	public VstPresetSerializationProvider(ISerializationProvider innerProvider, string presetClassId)
-	{
-		inner = innerProvider ?? throw new ArgumentNullException(nameof(innerProvider));
-		classId = presetClassId ?? throw new ArgumentNullException(nameof(presetClassId));
-	}
+	private readonly ISerializationProvider inner = innerProvider ?? throw new ArgumentNullException(nameof(innerProvider));
+	private readonly string classId = presetClassId ?? throw new ArgumentNullException(nameof(presetClassId));
 
 	/// <inheritdoc/>
 	public string ProviderName => "VST3 Preset";
