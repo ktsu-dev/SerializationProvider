@@ -1,6 +1,7 @@
-## v1.0.6-pre.33 (prerelease)
+## v1.0.6 (patch)
 
-Changes since v1.0.6-pre.32:
+Changes since v1.0.5:
 
-- Bump Polyfill from 10.8.0 to 10.8.1 ([@dependabot[bot]](https://github.com/dependabot[bot]))
-- Bump the ktsu group with 3 updates ([@dependabot[bot]](https://github.com/dependabot[bot]))
+- Add VST3 .vstpreset interchange codec and provider backend ([@Claude](https://github.com/Claude))
+- Use Ensure.NotNull for argument validation ([@Claude](https://github.com/Claude))
+- Use a primary constructor in VstPresetSerializationProvider ([@Claude](https://github.com/Claude))
