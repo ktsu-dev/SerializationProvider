@@ -1,6 +1,7 @@
-## v1.0.8 (patch)
+## v1.0.9 (patch)
 
-Changes since v1.0.7:
+Changes since v1.0.8:
 
-- chore: trim unused central package versions ([@matt-edmondson](https://github.com/matt-edmondson))
+- Sync .github\workflows\dotnet.yml ([@ktsu[bot]](https://github.com/ktsu[bot]))
+- Sync global.json ([@ktsu[bot]](https://github.com/ktsu[bot]))
 
